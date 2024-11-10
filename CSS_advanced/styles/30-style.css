@@ -360,6 +360,7 @@ ul.row {
   
 .card-work .card-title a {
     display: block;
+    text-decoration: none;
     padding-top: 45%
 }
 
@@ -370,4 +371,8 @@ ul.row {
     left: 0;
     bottom: 0;
     content: "";
+}
+  
+.card-work:hover .card-title {
+    opacity: 1;
 }
